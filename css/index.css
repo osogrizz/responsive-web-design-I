@@ -233,12 +233,13 @@ footer {
 	
 }
 
+/* Using 501px for scren share only. Smallest width is 500px when manually resizing window. */
 @media (max-width: 501px) {
 
 	body {
 		overflow-x: hidden;
 	}
-	
+
 	.comtainer {
 		margin: 0 ;
 		padding: 0;
@@ -254,8 +255,10 @@ footer {
 	}
 
 	nav a {
+		margin: 20px 0;
 		padding-bottom: 40px;
 		border-bottom: 1px solid gray;
+		width: 100%;
 	}
 
 	.logo-img {
@@ -285,8 +288,5 @@ footer {
 		display: flex;
 		flex-direction: column;
 	}
-
-
-
-
 }
+
