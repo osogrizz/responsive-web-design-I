@@ -217,23 +217,40 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 800px) {
+@media (max-width: 940px) {
 	.container {
 		margin: 0px auto;
+	}
+
+	nav {
+		display: flex;
+		flex-wrap: wrap-reverse;
+		justify-content: center;
 	}
 	
 	.logo-img {
 		margin: 0 auto;
 	}
-	nav {
-		display: flex;
-		flex-wrap: wrap-reverse;
+	
+	header {
+		padding-top: 250px;
+	}
+
+	button {
+		margin: 40px;
+	}
+
+	.header-section {
+		margin: 0 auto;
+	}
+	.header-img {
+		display: none;
 	}
 	
 }
 
 /* Using 501px for scren share only. Smallest width is 500px when manually resizing window. */
-@media (max-width: 501px) {
+@media (max-width: 688px) {
 
 	body {
 		overflow-x: hidden;
@@ -250,6 +267,7 @@ footer {
 		padding: 0;
 		position: relative;
 		display: flex;
+		flex-wrap: wrap-reverse;
 		flex-direction: column-reverse;
 	}
 
@@ -265,9 +283,25 @@ footer {
 		border: none;
 	}
 
-	.header-img {
-		display: none;
+	header {
+		padding-top: 160px;	
 	}
+
+	.header-section {
+		justify-content: center;
+		margin: 0 auto;
+	
+	}
+
+	button 	{
+		margin: 40px;
+	}
+
+
+
+	/* .header-img {
+		display: none;
+	} */
 
 	.top-articles {
 		margin: 20px auto;
