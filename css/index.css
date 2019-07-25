@@ -234,6 +234,11 @@ footer {
 }
 
 @media (max-width: 501px) {
+
+	body {
+		overflow-x: hidden;
+	}
+	
 	.comtainer {
 		margin: 0 ;
 		padding: 0;
