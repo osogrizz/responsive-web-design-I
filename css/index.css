@@ -101,7 +101,7 @@ nav a:hover {
 	color: red;
 }
 
-.logo-img {
+/* .logo-img {
 	display: inline-block;
 	background-image: url('../img/logo.png');
 	background-repeat: no-repeat;
@@ -109,7 +109,7 @@ nav a:hover {
 	height: 60px;
 	margin: 0;
 	margin-top: 20px;
-}
+} */
 
 /* header */
 
@@ -221,7 +221,6 @@ footer {
 	.container {
 		margin: 0px auto;
 	}
-	
 	
 	.logo-img {
 		margin: 0 auto;
