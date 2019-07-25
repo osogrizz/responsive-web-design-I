@@ -91,6 +91,7 @@ nav a {
 	color: gray;
 	text-decoration: none;
 	vertical-align: middle;
+	/* align-items: center;	 */
 }
 
 nav img {
@@ -217,7 +218,7 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 940px) {
+@media (max-width: 958px) {
 	.container {
 		margin: 0px auto;
 	}
